@@ -30,7 +30,6 @@ def print_argv( * argv ,  argc = 4) :
            print(argv[i])
 
 
-
 def multiply(a,b) : 
     return a* b 
 

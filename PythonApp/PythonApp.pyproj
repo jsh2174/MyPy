@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bd80b316-c27e-41df-9088-fcbf8892cf29</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>fnc.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,13 +27,29 @@
     <Compile Include="fnc.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="module\calculator.py">
+    <Compile Include="main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pack\pack\calculator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module\module3.py" />
+    <Compile Include="module\module2.py" />
+    <Compile Include="module\module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module\module4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pack\pack\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PythonApp.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="module\" />
+    <Folder Include="pack\" />
+    <Folder Include="C:\Users\bit\source\repos\PythonApp\PythonApp\pack\pack\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
