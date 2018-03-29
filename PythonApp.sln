@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.27428.2011
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApp", "PythonApp\PythonApp.pyproj", "{BD80B316-C27E-41DF-9088-FCBF8892CF29}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "analysis_chiken", "analysis_chiken\analysis_chiken.pyproj", "{6CEE90AC-81A4-4412-A210-224911F61B15}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "analysis_00data", "analysis_00data\analysis_00data.pyproj", "{3DF46FEA-396E-43A6-9CB8-EC426C390F7F}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "analysis_facebook", "analysis_facebook\analysis_facebook.pyproj", "{3527D3B2-F499-4F1B-815D-54F4B03A2CEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +19,12 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{BD80B316-C27E-41DF-9088-FCBF8892CF29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BD80B316-C27E-41DF-9088-FCBF8892CF29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CEE90AC-81A4-4412-A210-224911F61B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CEE90AC-81A4-4412-A210-224911F61B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF46FEA-396E-43A6-9CB8-EC426C390F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF46FEA-396E-43A6-9CB8-EC426C390F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3527D3B2-F499-4F1B-815D-54F4B03A2CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3527D3B2-F499-4F1B-815D-54F4B03A2CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

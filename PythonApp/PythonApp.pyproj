@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bd80b316-c27e-41df-9088-fcbf8892cf29</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApp.py</StartupFile>
+    <StartupFile>fnc.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="loop.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="fnc.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module\calculator.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonApp.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="module\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

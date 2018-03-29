@@ -4,6 +4,8 @@ import datetime
 now = datetime.datetime.now()
 print(now)
 
+
+# 질문자의 의도를 정확히 이해하고
 # 문자열 포맷팅
 nowdate = now.strftime('%Y-%m-%d')
 print(nowdate)
